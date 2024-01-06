@@ -10,3 +10,7 @@ class ApiStudent(View):
     def get(self,request,search):
         glist =Alumno.objects.all().filter(idPlayer=search)
         return JsonResponse(list(glist.values()),safe = False)
+class ApiStudentPosition(View):
+    def get(self,request):
+        glist =Alumno.objects.all().order_by("puntos").reverse()
+        return JsonResponse(list(glist.values()),safe = False)
