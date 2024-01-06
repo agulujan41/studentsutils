@@ -131,3 +131,4 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     "https://marcadorstudents-agulujan-dev.vercel.app"
 ]
+CORS_ORIGIN_ALLOW_ALL = True
