@@ -127,10 +127,11 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-CORS_ALLOWED_ORIGINS = [
+"""CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     "https://marcadorstudents-agulujan-dev.vercel.app",
     "https://vercel.com/",
     
     "https://agulujan41.pythonanywhere.com"
-]
+]"""
+CORS_ORIGIN_ALLOW_ALL = True
