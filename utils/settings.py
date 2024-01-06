@@ -130,5 +130,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     "https://marcadorstudents-agulujan-dev.vercel.app",
-    "*"
+    
+    "https://agulujan41.pythonanywhere.com"
 ]
